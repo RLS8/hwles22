@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #333; 
+}
+
+.navbar-nav .nav-link {
+    color: #ff5733;
+}
+
+.custom-container {
+    max-width: 100%;
+}
+
+@media (min-width: 576px) {
+    .custom-container {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+}
+
+footer {
+    height: 200px;
+    background-color: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-link{
+    background-color: rgb(97, 85, 112);
+}
